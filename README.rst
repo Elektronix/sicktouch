@@ -5,12 +5,15 @@ Installation
 ------------
 
 #. Copy the `sicktouch` directory to `/usr/local/share`
-#. Create the file `/usr/local/share/sicktouch/.ftppassword`
+#. Create the file `/usr/local/share/sicktouch/.ftppassword`, and make it look like below
 
     .. code-block:: none
-                
-        username=<username heree>
 
+        username=<username here>
+        password=<password here>
+        hostaddr=xxx.xxx.xxx.xxx
+
+#. Copy runme.sh to `/usr/local/bin/runme.sh`
 
 Usage
 -----
